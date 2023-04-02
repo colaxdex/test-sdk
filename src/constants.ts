@@ -12,7 +12,9 @@ export enum ChainId {
   BSC_MAINNET = 56,
   BSC_TESTNET = 97,
   POLYGON_MAINNET = 137,
-  POLYGON_TESTNET = 80001
+  POLYGON_TESTNET = 80001,
+  ZKSYNC = 324,
+  ZKSYNCTESNET = 280
 }
 
 export enum TradeType {
@@ -26,9 +28,9 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0xCe8fd65646F2a2a897755A1188C04aCe94D2B8D0'
+export const FACTORY_ADDRESS = '0xC61Ee6636F0671914AD0D00A6861A75aa3297Fc6'
 
-export const INIT_CODE_HASH = '0xacc1c81cc3e9fb496da555f6bd67c3a095e579b26c1b580070cc6afa8f0a94fa'
+export const INIT_CODE_HASH = '0xe4cad8bc43e406bfd5d5d74b0efbf80296c15353cf15907f42b7f41cc92b5db9'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 

@@ -107,5 +107,19 @@ export const WETH = {
     18,
     'WMATIC',
     'Wrapped MATIC'
-  )
+  ),
+  [ChainId.ZKSYNCTESNET]: new Token(
+    ChainId.ZKSYNCTESNET,
+    '0x294cB514815CAEd9557e6bAA2947d6Cf0733f014',
+    18,
+    'WETH',
+    'Wrapped ETH'
+  ),
+  [ChainId.ZKSYNC]: new Token(
+    ChainId.ZKSYNC,
+    '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91',
+    18,
+    'WETH',
+    'Wrapped ETH'
+  ),
 }
